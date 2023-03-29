@@ -1,0 +1,33 @@
+body {
+  background-color: forestgreen;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .board {
+  width: 600px;
+	height: 600px;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #34495e;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+main .board .box {
+  border: 6px solid;
+  font-weight: bold;
+  font-size: 4em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .board .box:hover{
+  color: green;
+}
