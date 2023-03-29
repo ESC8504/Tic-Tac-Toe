@@ -31,3 +31,8 @@ main .board .box {
 main .board .box:hover{
   color: green;
 }
+
+main .main-prompt {
+  font-size: 20px;
+  color: blanchedalmond;
+}
